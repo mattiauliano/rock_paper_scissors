@@ -11,3 +11,7 @@ function getComputerChoice() {
 
 let computerSelection = getComputerChoice()
 
+function playerSelection() {
+    let playerChoice = window.prompt("Choose! Rock, Paper or Scissors?")
+}
+
