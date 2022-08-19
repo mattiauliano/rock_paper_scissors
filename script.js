@@ -35,3 +35,9 @@ function playRound(playerSelection, cpuSelection) {
         alert("It's TIE!")
     }
 }
+
+function game() {
+    while(cpuScore!=5 && playerScore!=5) {
+        playRound(playerSelection, cpuSelection)
+    }
+}
