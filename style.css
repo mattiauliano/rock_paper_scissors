@@ -10,9 +10,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 85px;
+    height: 30%;
     background-color: rgb(20, 20, 20);
     padding: 20px 40px;
+    border-bottom: 2px solid rgb(255, 208, 0);
 }
 
 #logo {
@@ -34,3 +35,24 @@ header {
     font-weight: bolder;
     margin-bottom: 5px;
 }
+
+/* Scores display */
+
+#scores-display {
+    border: 1px solid black;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+#scores {
+    border: 1px solid black;
+}
+
+#game-state {
+    border: 1px solid black;
+}
+
+/* Player input section */
