@@ -78,3 +78,21 @@ header {
     color: rgb(255, 208, 0);
     font-weight: bolder;
 }
+
+/* Game state section */
+
+#round-result-display {
+    border: 1px solid black;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+#round-result {
+    border: 1px solid black;
+}
+
+/* Footer */
+
