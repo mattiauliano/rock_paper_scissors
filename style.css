@@ -1,0 +1,36 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    background-color: rgb(20, 20, 20);
+    padding: 20px 40px;
+}
+
+#logo {
+    color: rgb(255, 208, 0);
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 45px;
+    margin-left: 20px;
+}
+
+#theme {
+    border: 1px solid rgb(255, 208, 0);
+    border-radius: 15px;
+    background-color: rgb(20, 20, 20);
+    color: rgb(255, 208, 0);
+    margin-right: 20px;
+    height: 40px;
+    width: 120px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
