@@ -28,6 +28,20 @@ body {
     text-align: center;
 }
 
+/* Responsive */
+
+@media (max-width: 700px) {
+    .choice {
+      font-size: 110px;
+    }
+}
+  
+@media (max-width: 500px) {
+    .choice {
+      font-size: 80px;
+    }
+}
+
 /* Header */
 
 .header {
@@ -48,6 +62,10 @@ body {
     display: flex;
     justify-content: center;
     gap: 5rem;
+}
+
+.choice {
+    cursor: pointer;
 }
 
 .choice:hover {
@@ -89,4 +107,6 @@ body {
     background-color: #05386b;
     color: #edf5e1;
 }
+
+/* Modal */
 
