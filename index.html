@@ -1,38 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Rock, Paper & Scissors!</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/3da1a747b2.js"></script>
         <link rel="stylesheet" href="style.css">
+        <title>Rock, Paper & Scissors!</title>
     </head>
     <body>
+        <div class="container">
+            <header class="header">
+                <h1>Rock Paper Scissors</h1>
+                <p>Make Your Choice!</p>
+            </header>
 
-        <header>
-            <div id="logo">Rock, Paper, Scissors!</div>
-            <button id="theme">Change theme</button>
-        </header>
+            <div class="choices">
+                <i id="rock" class="choice fas fa-hand-rock fa-10x"></i>
+                <i id="paper" class="choice fas fa-hand-paper fa-10x"></i>
+                <i id="scissors" class="choice fas fa-hand-scissors fa-10x"></i>
+            </div>
 
-        <section id="scores-display">
-            <div id="scores">4 - 1</div>
-            <div id="game-state">You are winning!</div>
-        </section>
+            <div class="score">
+                <div class="player-display">
+                    <div class="score-text">Player:</div>
+                    <div id="player-score" class="player-score"> 0 </div>
+                </div>
+                <div class="cpu-display">
+                    <div class="score-text">CPU:</div>
+                    <div id="cpu-score" class="cpu-score"> 0 </div>
+                </div>
+            </div>
 
-        <section id="input-player">
-            <button id="rock" class="input">R</button>
-            <button id="paper" class="input">P</button>
-            <button id="scissors" class="input">S</button>
-        </section>
+        </div>
+        
 
-        <section id="round-result-display">
-            <div id="round-result">Paper beats Rock... You won!</div>
-        </section>
+        <!-- Modal -->
+        <div class="modal">
+            <div id="round-result" class="modal-content">
+                <h1>You WIN!</h1>
+                <i id="rock" class="choice fas fa-hand-rock fa-10x"></i>
+                <p>CPU Chose Rock</p>
+            </div>
+        </div>
 
-        <footer>
-            <div id="copyrights">©mattiauliano</div>
-        </footer>
 
         <script src="script.js"></script>
     </body>
