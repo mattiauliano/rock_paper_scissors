@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+:root {
+    --background-color: #5cdb95;
+    --primary-color: #05386b;
+    --secondary-color: edf5e1;
+    --modal-duration: 1s;
+}
