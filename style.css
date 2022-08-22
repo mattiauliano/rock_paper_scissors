@@ -3,6 +3,90 @@
 :root {
     --background-color: #5cdb95;
     --primary-color: #05386b;
-    --secondary-color: edf5e1;
+    --secondary-color: #edf5e1;
     --modal-duration: 1s;
 }
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #5cdb95;
+    color: #05386b;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+/* Header */
+
+.header {
+    margin: 1rem 0;
+    font-size: 1.4rem;
+}
+
+.header p {
+    color: #edf5e1;
+    font-weight: bolder;
+    letter-spacing: 0.7rem;
+}
+
+/* Player choices */
+
+.choices {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.choice:hover {
+    color: #edf5e1;
+}
+
+/* Display scores */
+
+.score {
+    margin-top: 3.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2.6rem;
+}
+
+.score-text-display {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    font-weight: bold;
+    letter-spacing: 0.7rem;
+}
+
+.score-display {
+    display: flex;
+    justify-content: center;
+    gap: 9rem;
+    margin-left: 26px;
+    margin-top: 1rem;
+}
+
+.player-score, .cpu-score {
+    border: 2px solid #05386b;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding-top: 6px;
+    background-color: #05386b;
+    color: #edf5e1;
+}
+
