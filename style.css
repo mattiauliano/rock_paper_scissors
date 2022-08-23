@@ -137,13 +137,13 @@ body {
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
 }
 
-.modal-content #rock {
-    margin-top: 0.3rem;
+.modal-content .choice {
+    margin-top: 0.6rem;
     margin-bottom: 0.6rem;
     cursor: default;
 }
 
-.modal-content #rock:hover {
+.modal-content .choice:hover {
     color: #05386b;
 }
 
