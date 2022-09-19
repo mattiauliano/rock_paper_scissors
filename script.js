@@ -7,7 +7,7 @@ let cpuScoreIncrement = document.getElementById("cpu-score");
 // Use an array to avoid bugs with playerScore = 0; and cpuScore = 0;
 const scoreboard = {
     player: 0,
-    cpu: 0
+    cpu: 0,
 }
 
 let playerSelection;
@@ -91,6 +91,8 @@ function resetScores(scoreboard) {
     if ((scoreboard.player==5) || (scoreboard.cpu==5)) {
         cpuScoreIncrement.innerHTML = `<p class="cpu-score">0</p>`;
         playerScoreIncrement.innerHTML = `<p class="player-score">0</p>`;
+        scoreboard.player = 0;
+        scoreboard.cpu = 0;
     }
 }
 
